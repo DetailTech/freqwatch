@@ -1,3 +1,10 @@
+this is a fork of https://github.com/FlavioFalcao/freqwatch, updating to python3
+
+
+###########
+ORIGINAL DOCUMENTATION BELOW
+###########
+
 # Freqwatch v0.1
 Joshua Davis (freqwatch -!- covert.codes)  
 http://covert.codes/freqwatch/
