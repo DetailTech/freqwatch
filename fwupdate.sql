@@ -1,0 +1,7 @@
+##CREATE DATABASE freqwatch;
+CREATE USER 'testuser'@'localhost' IDENTIFIED BY 'testpass';
+GRANT ALL PRIVILEGES ON freqwatch.* TO 'testuser'@'localhost' WITH GRANT OPTION;
+USE freqwatch;
+#CREATE TABLE intercepts (id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, date DATE, time TIME, freq INT UNSIGNED, data MEDIUMBLOB);
+#CREATE TABLE freqs (id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, date DATE, time TIME, freq INT UNSIGNED, power FLOAT);
+
